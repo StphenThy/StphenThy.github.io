@@ -4,48 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stephen P. Tohoy Portfolio</title>
-    <style>
-        img{
-            border-radius: 50%;
-            border:10px solid #C0C0C0;
-        }
-        body {
-            text-align: center;
-            background-color: #282C32
-        }
-        .centered-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-    </style>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1 style="color: #98FF98;">My Portfolio</h1>
-    <hr>
-    <br>
-    <h1 style="color: white;">Stephen P. Tohoy</h1>
-    <img src="https://github.com/StphenThy/pic/blob/main/1345.jpg?raw=true" alt="About Me Image" width="200" class="centered-image">
-    <br>
-    <h1 style="color: white;">About Me:</h1>
-    <p style="color: white;">I am a second year Information Technology student and I live in Davao City.</p>
-    <h2 style="color: white;">Current school:</h2>
-    <p style="color: white;">University of the Immaculate Conception.</p>
-    <h2 style="color: white;">Favorites:</h2>
-    <p style="color: white;">Sleeping, going out, and playing video games.</p>
-    <h2 style="color: white;">School Projects:</h2>
-    <p style="color: white;">Made a library system management project using java swing.</p>
-    <h2 style="color: white;">Talents:</h2>
-    <p style="color: white;">I cannot sing and dance.</p>
-    <h2 style="color: white;">External links:</h2>
-    <p><a href="https://www.facebook.com/pipoy.stephen/" class="info" style="color: white;"><strong>Facebook</strong></a></p>
-    <p><a href="https://github.com/StphenThy//" class="info" style="color: white;"><strong>Github</strong></a></p>
-    <h2 style="color: white;">Reference:</h2>
-    <p><a href="https://www.w3schools.com/css/css_align.asp" class="info" style="color: white;"><strong>How to center all texts</strong></a></p>
-    
+    <div class="container">
+        <h1 class="portfolio-title">My Portfolio</h1>
+        <hr>
+        <h1>Stephen P. Tohoy</h1>
+        <!-- Button to show  image -->
+        <button id="showImageButton">Show</button>
+        <!-- Hidden image -->
+        <div id="imageContainer" style="display: none;">
+            <img src="https://github.com/StphenThy/pic/blob/main/1345.jpg?raw=true" alt="About Me Image" width="200" class="centered-image">
+        </div>
+        <br>
+        <h1>About Me:</h1>
+        <p>I am a second year Information Technology student and I live in Davao City.</p>
+        <h2>Current school:</h2>
+        <p>University of the Immaculate Conception.</p>
+        <h2>Favorites:</h2>
+        <p>Sleeping, going out, and playing video games.</p>
+        <h2>School Projects:</h2>
+        <p>Made a library system management project using java swing.</p>
+        <h2>Talents:</h2>
+        <p>I cannot sing and dance.</p>
+        <h2>External links:</h2>
+        <p><a href="https://www.facebook.com/pipoy.stephen/" class="info"><strong>Facebook</strong></a></p>
+        <p><a href="https://github.com/StphenThy//" class="info"><strong>Github</strong></a></p>
+        <h2>Reference:</h2>
+        <p><a href="https://www.w3schools.com/css/css_align.asp" class="info"><strong>How to center all texts</strong></a></p>
+        <p><a href="https://www.youtube.com/watch?v=-oQnDrNzTTA&pp=ygUaaG93IHRvIGFkZCBzaG93IGJ1dHRvbiBqcyA%3D" class="info"><strong>Show & Hide JS bttn</strong></a></p>
+
+    </div>
 </body>
 </html>
