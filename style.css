@@ -1,0 +1,54 @@
+/* to create a border for the picture */
+img {
+    border-radius: 50%;
+    border: 10px solid #C0C0C0;
+}
+
+/* to center all inside the body */
+body {
+    text-align: center;
+    background-color: #282C32;
+}
+
+/* to move the image to the center, instead of aligning it to left by default */
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* border to all the design */
+.container {
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: #1F2329;
+}
+
+/* adds color to portfolio title */
+h1.portfolio-title {
+    color: #98FF98;
+}
+
+/* color to all the text */
+h1, h2, p, a {
+    color: white;
+}
+
+/* Style for the button */
+#showImageButton {
+    background-color: #98FF98;
+    color: #282C32;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Hover effect for the button */
+#showImageButton:hover {
+    background-color: #82e3b6; 
+}
