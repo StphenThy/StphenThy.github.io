@@ -232,7 +232,7 @@ header nav ul li a {
     font-size: 17.6px; 
 }
 
-.Links {
+.links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,7 +242,7 @@ header nav ul li a {
     margin-bottom: 40px; 
 }
 
-.Links-desc {
+.links-desc {
     display: block;
     width: 50%;
     background-color: rgba(0, 82, 73, 0.7);
@@ -257,23 +257,23 @@ header nav ul li a {
 }
 
 
-.Links-desc h1 {
+.links-desc h1 {
     font-size: 32px; 
     margin-bottom: 15px; 
     color: white;
 }
 
-.Links-desc ul {
+.links-desc ul {
     list-style-type: none; 
     padding: 0;
     margin: 0;
 }
 
-.Links-desc ul li {
+.links-desc ul li {
     margin-bottom: 15px; 
 }
 
-.Links-link {
+.links-link {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -332,7 +332,7 @@ header nav ul li a {
 }
 
 
-.Music-desc {
+.music-desc {
     display: block;
     width: 50%;
     background-color: rgba(0, 82, 73, 0.5); 
@@ -348,7 +348,7 @@ header nav ul li a {
 }
 
 
-.Music-desc h1 {
+.music-desc h1 {
     font-size: 32px; 
     margin-bottom: 15px; 
     color: white;
