@@ -1,4 +1,4 @@
-const toggleButton = document.getElementById('dark-mode-toggle');
+const iconContainer = document.getElementById('icon-container');
 const body = document.body;
 
 if (!localStorage.getItem('dark-mode')) {
@@ -9,7 +9,7 @@ if (localStorage.getItem('dark-mode') === 'enabled') {
     body.classList.add('dark-mode');
 }
 
-toggleButton.addEventListener('click', () => {
+iconContainer.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
 
     if (body.classList.contains('dark-mode')) {
