@@ -236,20 +236,24 @@ header nav ul li a {
         border-radius: 0; 
     }
 
+   .switch {
+    position: fixed;  
+    top: 70px;        
+    right: 20px;      
+    width: 25px;     
+    height: 18px;    
+}
+
+.switch input {
+    width: 0; 
+    height: 0; 
+}
+
+@media (max-width: 600px) { 
     .switch {
-        position: fixed;  
-        top: 70px;        
-        right: 20px;      
-        width: 25px;     
-        height: 18px;    
+        top: 120px; 
     }
-
-    .switch input {
-        width: 0; 
-        height: 0; 
-    }
-
-
+}
     /*------------------------------------------------------------Dark Mode--------------------------------------------------- */
 }
 body.dark-mode {
