@@ -251,16 +251,24 @@ header nav ul li a {
 }
 body.dark-mode {
     background-image: url(https://i.pinimg.com/originals/2d/79/a2/2d79a22c6a7902c41866fe4badebe98e.gif);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+    background: none;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
 }
 body.dark-mode::before {
     background-image: url(https://i.pinimg.com/originals/2d/79/a2/2d79a22c6a7902c41866fe4badebe98e.gif);
-    filter: blur(6px); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(8px);
+    z-index: -1;
 }
 body.dark-mode header {
     background-color: rgba(255, 255, 255, 0.2); 
